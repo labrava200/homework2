@@ -8,26 +8,26 @@ public class Main {
         System.out.println(cat);
         System.out.println(paper);
 //Задача 2
-        var Dog = dog * 4;
-        var Cat = cat * 4;
-        var Paper = paper * 4;
-        System.out.println(Dog);
-        System.out.println(Cat);
-        System.out.println(Paper);
+        dog = dog + 4;
+        cat = cat * 4;
+        paper = paper * 4;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
 //Задача 3
-        var DOG = Dog - 3.5;
-        var CAT = Cat - 1.6;
-        var PAPER = Paper - 7639;
-        System.out.println(DOG);
-        System.out.println(CAT);
-        System.out.println(PAPER);
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
 //Задача 4
     var friend = 19;
     System.out.println(friend);
-    var Friend = friend + 2;
-    System.out.println(Friend);
-    var FRIEND = Friend / 7;
-    System.out.println(FRIEND);
+    friend = friend + 2;
+    System.out.println(friend);
+    friend = friend / 7;
+    System.out.println(friend);
 //Задача 5
         var frog = 3.5;
         System.out.println(frog);
@@ -47,8 +47,8 @@ public class Main {
         var differenceBoxersWeight = secondBoxerWeight - firstBoxerWeight;
         System.out.println("Разница между массами двух бойцов составляет " + differenceBoxersWeight + " кг");
 //Задача 7
-        var DiffBoxersWeight = secondBoxerWeight % firstBoxerWeight;
-        System.out.println("Остаток от деления между двумя весами составляет " + DiffBoxersWeight + " кг");
+        var diffBoxersWeight = secondBoxerWeight % firstBoxerWeight;
+        System.out.println("Остаток от деления между двумя весами составляет " + diffBoxersWeight + " кг");
 //Задача 8
         var workTime = 640;
         var workTimeEmployee = 8;
